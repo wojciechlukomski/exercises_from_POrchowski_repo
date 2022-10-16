@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="exercise_modulo" />
+        <module name="exercise_arrayList" />
+        <module name="exercise_string_anagram" />
         <module name="exercise_fibonacci" />
         <module name="exercise_sum" />
       </profile>

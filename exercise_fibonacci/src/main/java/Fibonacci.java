@@ -3,7 +3,6 @@ public class Fibonacci {
     public static void main(String[] args) {
         Fibonacci exercise2 = new Fibonacci();
         exercise2.fibonacci();
-        exercise2.method2();
     }
     
     public void fibonacci() {
@@ -27,20 +26,6 @@ public class Fibonacci {
             System.out.println(currentNumber);
             previousNumber2 = previousNumber;
             previousNumber = currentNumber;
-        }
-    }
-    
-    public void method2() {
-        for (int i = 1; i <= 100; i++) {
-            if (((i % 3) == 0) && ((i % 5) == 0)) {
-                System.out.println("AB");
-            } else if ((i % 3) == 0) {
-                System.out.println("A");
-            } else if ((i % 5) == 0) {
-                System.out.println("B");
-            } else {
-                System.out.println(i);
-            }
         }
     }
 }
