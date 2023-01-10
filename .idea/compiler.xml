@@ -6,12 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="exercise_string_anagram" />
+        <module name="exercises_lambda_streams" />
+        <module name="exercise_reccurency" />
+        <module name="mix_various_examples" />
         <module name="exercise_modulo" />
         <module name="exercise_arrayList" />
-        <module name="exercise_string_anagram" />
         <module name="exercise_fibonacci" />
         <module name="exercise_sum" />
+        <module name="exercise_helion_wydanie_II" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="advanced_selenium_testing_framework_udemy" target="11" />
+      <module name="exercise_recurency" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

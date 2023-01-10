@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.*;
 public class ArrayList {
     public static void main(String[] args) {
@@ -6,6 +7,11 @@ public class ArrayList {
         sampleList.add("Marian");
         sampleList.add("Kasia");
         sampleList.add("Marianka");
+        
+        String str = "knowlegde";
+        String s = str;
+        str = str.concat(" base");
+        System.out.println(str);
         
         for (String item : sampleList) {
             System.out.println(item);

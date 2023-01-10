@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/exercise_recurency/exercise_recurency.iml" filepath="$PROJECT_DIR$/exercise_recurency/exercise_recurency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise_silnia/exercise_silnia.iml" filepath="$PROJECT_DIR$/exercise_silnia/exercise_silnia.iml" />
+    </modules>
+  </component>
+</project>
